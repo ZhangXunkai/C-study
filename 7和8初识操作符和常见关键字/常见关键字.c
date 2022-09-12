@@ -10,7 +10,7 @@ void test()
 }
 extern int g_val;//extern用来声明外部符号
 //声明外部函数
-extern int Add(int,int);//只要说明函数类型、函数名、函数参数是什么就行了，也可以写成：extern int Add(int x, inty);
+extern int Add(int,int);//只要说明函数类型、函数名、函数参数是什么就行了，也可以写成：extern int Add(int x, int y);
 int main()
 {
 	//{//在进入大括号时，a生命开始
