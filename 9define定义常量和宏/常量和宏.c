@@ -12,6 +12,6 @@
 #define ADD(x,y) ((x)+(y))
 int main()
 {
-	printf("%d\n",4*ADD(2,3));
+	printf("%d\n",4*ADD(2,3));//打印结果为20
 	return 0;
 }
